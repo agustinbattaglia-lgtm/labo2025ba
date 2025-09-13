@@ -1,0 +1,2 @@
+cp	maxdepth	minsplit	minbucket	ganancia_mean	qty	id
+-0.5	6	1500	50	50873333.3333333	3	1
