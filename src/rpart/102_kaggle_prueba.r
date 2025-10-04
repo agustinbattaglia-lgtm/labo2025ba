@@ -107,10 +107,10 @@ set.seed( Sys.time() )
 
 # modelo
 param <- list()
-param$cp <- -1
-param$maxdepth <- sample( 4:10, 1 )
-param$minsplit <- sample( 50:500, 1 )
-param$minbucket <- sample( 1:(param$minsplit/2), 1 )
+param$cp <- -0.01
+param$maxdepth <- 6
+param$minsplit <- 1500
+param$minbucket <- 50
 gan <- generarmodelo( param )
 
 quit( save="no" )

@@ -1,0 +1,2 @@
+semilla	cp	maxdepth	minsplit	minbucket	ganancia_test
+821153	-0.5	6	800	267	48700000
